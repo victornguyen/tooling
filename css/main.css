@@ -208,7 +208,7 @@ body {
 }
 
 .reveal code {
-	font-family: monaco,monospace;
+	font-family: monospace;
 	overflow-x: auto;
 }
 
