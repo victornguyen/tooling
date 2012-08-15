@@ -87,7 +87,7 @@ body {
  *********************************************/
 
 .reveal a:not(.image) {
-	color: hsl(185, 85%, 50%);
+	color: rgba(185, 213, 0, 1);
 	text-decoration: none;
 
 	-webkit-transition: color .15s ease;
@@ -97,7 +97,7 @@ body {
 	        transition: color .15s ease;
 }
 	.reveal a:not(.image):hover {
-		color: hsl(185, 85%, 70%);
+		color: rgba(185, 213, 0, 1);
 		
 		text-shadow: none;
 		border: none;
@@ -105,8 +105,8 @@ body {
 	}
 
 .reveal .roll span:after {
-	color: #fff;
-	background: hsl(185, 60%, 35%);
+	color: rgba(0, 0, 0, 0.8);
+	background: rgba(185, 213, 0, 1);
 }
 
 
@@ -164,7 +164,7 @@ body {
 	color: #fff;
 }
 	.reveal .controls a.enabled {
-		color: hsl(185, 85%, 70%);
+		color: rgba(185, 213, 0, 0.5);
 		text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
 	}
 
@@ -177,7 +177,7 @@ body {
 	background: rgba(0,0,0,0.2);
 }
 	.reveal .progress span {
-		background: hsl(185, 85%, 50%);
+		background: rgba(255, 255, 255, 0.2);
 
 		-webkit-transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
 		   -moz-transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
