@@ -1,5 +1,5 @@
 
-function Eskimo(name, type) {
+function Eskimo(name, type) {       
 	this.name = name || 'I don\'t have a name';
 	this.type = type || 'Lazy';
     this.runCount = 0
@@ -9,9 +9,9 @@ function Eskimo(name, type) {
 
 Eskimo.prototype.run = function(count) {
 	this.runCount += count || 1
-	return this;
+	return this;   
 };
-	
+
 var rob = new Eskimo('Hardcore', '.NET')
 
 rob.run().run().run().run();
